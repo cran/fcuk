@@ -1,14 +1,14 @@
-cf1218e76902beb088fa2a26487a7c70 *DESCRIPTION
+5546c138065454e43ded9a15a0227587 *DESCRIPTION
 da0beaa89053d138981d406106cdd8c8 *NAMESPACE
 7b071117e86dc7c0c2f782433fd8c212 *R/add_to_rprofile.R
 16705e41125fb76c11750eaff15ae29d *R/doc_package.R
-51d8df61282f8d8215e658420efc8113 *R/function.R
+c092b3f043e0e9072ac6f7f9275258ae *R/function.R
 535dfd16a9c71715291db3d772a4466b *R/zzz.R
 61f65291c73ee8cc1714cb4cdc537a1f *README.md
 27ad703ab864164cefc37a24319dcc4f *build/vignette.rds
 be67c71b9ba584683cd4a16d31b69390 *inst/doc/fcuk.R
 430fb0a97d371e8e80798f9e7ef95f4a *inst/doc/fcuk.Rmd
-d21465d1548ae0633ac42ec29d5d7fa8 *inst/doc/fcuk.html
+23e5ea620b86a9b0d74d75260d49b542 *inst/doc/fcuk.html
 126cc5341a7e5a225667b9ca7285282a *man/add_fcuk_to_rprofile.Rd
 dee22cceb33979168bad368d71e9e34e *man/catch_error.Rd
 83cce4ef79ca0a909543efbb6ab47da8 *man/error_analysis.Rd

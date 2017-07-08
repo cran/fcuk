@@ -2,7 +2,7 @@ Package: fcuk
 Type: Package
 Title: The Ultimate Helper for Clumsy Fingers
 Date: 2017-07-05
-Version: 0.1.2
+Version: 0.1.21
 Author: Vincent Guyader
 Maintainer: Vincent Guyader <vincent@thinkr.fr>
 BugReports: https://github.com/ThinkRstat/fcuk/issues
@@ -17,6 +17,6 @@ Suggests: testthat, knitr, rmarkdown
 VignetteBuilder: knitr
 ByteCompile: true
 NeedsCompilation: no
-Packaged: 2017-07-07 08:29:12 UTC; vincent
+Packaged: 2017-07-07 23:24:15 UTC; vincent
 Repository: CRAN
-Date/Publication: 2017-07-07 10:13:40 UTC
+Date/Publication: 2017-07-08 03:40:18 UTC

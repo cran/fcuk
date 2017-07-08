@@ -59,8 +59,8 @@ error_analysis <- function(asked_objet = catch_error(),n=2) {
       ,
       "?\n"
     )
-  }
 invisible(out)
+}
   }
 
 
