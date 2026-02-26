@@ -17,7 +17,7 @@ A package designed to help people with clumsy fingers.
 
 ```R
 if (!require(devtools)){install.packages("devtools")}
-devtools::install_github("ThinkRstat/fcuk")
+devtools::install_github("ThinkR-open/fcuk")
 ```
 
 ## Launch and use
@@ -71,4 +71,4 @@ You'll typically never need to use the functions contained in `fcuk`. You just n
 
 ## Feedbacks and questions 
 
-Feel free to  report any [issue](https://github.com/ThinkRstat/fcuk/issues) you may have with this package. 
+Feel free to  report any [issue](https://github.com/ThinkR-open/fcuk/issues) you may have with this package. 

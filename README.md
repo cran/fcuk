@@ -1,3 +1,9 @@
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/fcuk)](https://cran.r-project.org/package=fcuk)
+[![](http://cranlogs.r-pkg.org/badges/fcuk)](https://cran.r-project.org/package=fcuk)
+[![Coverage status](https://app.codecov.io/github/ThinkR-open/fcuk?branch=master)
+
+<img src="https://raw.githubusercontent.com/ThinkR-open/fcuk/master/img/fcuk-hex-thinkr.png" width=250px>
+
 # fcuk
 
 A package designed to help people with clumsy fingers.
@@ -9,12 +15,22 @@ A package designed to help people with clumsy fingers.
 
 ## Installation of `fcuk`
 
+### From CRAN
+```R
+
+install.packages("fcuk")
+```
+
+
+### From github
 ```R
 if (!require(devtools)){install.packages("devtools")}
-devtools::install_github("ThinkRstat/fcuk")
+devtools::install_github("ThinkR-open/fcuk")
 ```
 
 ## Launch and use
+
+See full documentation realised using {pkgdown} at <https://thinkr-open.github.io/fcuk/>  
 
 After launching this package, every error will be analysed. Each time a typo occurs, a correction suggestion will be made under the default error message. 
 
@@ -40,6 +56,21 @@ Did you mean : mean or frame ?
 
 ```
 
+You can accept `fcuk` correction proposal by using this notation : `.+1` This allows you to rerun the last line by accepting the first correction proposal.
+In fact `.+n` will rerun the nth correction proposal.
+
+```{r}
+library(fcuk)
+
+# Examples 
+sl()
+> Error in sl() : impossible de trouver la fonction "sl"
+Did you mean : ls or nls ?
+> .+1
+> ls()
+
+```
+
 ## Stop `fcuk`
 
 You can stop `fcuk` at anytime by calling the `remove_error_tracker` function. Start the error tracker again with `init_error_tracker`. 
@@ -57,12 +88,16 @@ library(fcuk)
 
 It will be more efficient to add this library to your Rprofile. You can use `fcuk::add_fcuk_to_rprofile()` to do so. Then, any time you launch your R project, `fcuk` will be launched at the same time. 
 
-You can also add `fcuk` inside your `Rprofile.site` file. Then you'll have this functionnality inside all your Rstudio projects.
+You can also add `fcuk` inside your `Rprofile.site` file. Then you'll have this functionality inside all your Rstudio projects.
 
 ## fcuk functions
 
-You'll typically never need to use the functions contained in `fcuk`. You just need to launch this library, and `fcuk` will do his job in the background. 
+You'll typically never need to use the functions contained in `fcuk`. You just need to launch this library, and `fcuk` will do its job in the background. 
 
 ## Feedbacks and questions 
 
-Feel free to  report any [issue](https://github.com/ThinkRstat/fcuk/issues) you may have with this package. 
+Feel free to  report any [issue]( https://github.com/ThinkR-open/fcuk/issues) you may have with this package. 
+  
+  ## Code of Conduct
+  
+  Please note that the fcuk project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
